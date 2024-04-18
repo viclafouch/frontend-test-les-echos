@@ -14,6 +14,8 @@ It's your thought process and strategy, rather than completion, that we're inter
 
 Please do code as you were already a part of our frontend team, it is essential to us.
 
+You have to use NextJS, wether it is the latest version (app router), or if you don't feel comfortable with it, use the pages router.
+
 # What is your mission ?
 
 ## Styling
@@ -48,6 +50,11 @@ The label of the CTA (call to action) will be `S'inscrire` if the user has acces
 ## Everything should be typed
 
 Everything has to be typed with typescript, show us what you can do !
+
+## The newsletter should come from a fetching function
+
+Even if we don't provide an API to call, you have to simulate the fetching.
+Also, the app should work in SSR.
 
 # Time
 
