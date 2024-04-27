@@ -1,9 +1,7 @@
-"use server";
+import React from 'react'
 
-import React from "react";
+const Page = () => {
+  return <div>This is a default Page</div>
+}
 
-const page = () => {
-  return <div>This is a default page</div>;
-};
-
-export default page;
+export default Page

@@ -65,3 +65,6 @@ Take around 4 hours to do this test, we really respect your time and don't want 
 Good luck and again, please do this as you were already an developer in our team.
 
 If you have any question feel free to contact us and we will quickly respond
+
+
+Start at 10:39am
