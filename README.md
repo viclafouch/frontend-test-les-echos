@@ -13,4 +13,4 @@ Duration: 2h33
 
 * Session du user avec un simple Contexte. Dans l'idée, j'aurai fais coté serveur avec NextAuth. Non persistant aussi d'ailleurs ;
 
-* GroupBy avec [Remeda](https://remedajs.com/) (car Array.groupBy pas encore encore bien supporté) ;
+* GroupBy avec [Remeda](https://remedajs.com/) (car Array.group pas encore encore bien supporté) ;
