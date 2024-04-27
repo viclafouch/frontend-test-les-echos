@@ -18,6 +18,8 @@ export async function getNewsletter() {
 }
 
 const Page = () => {
+  // From page, and not directly from `NewsletterList` component.
+  // This promise will maybe use searchParams in a future, or will be shared to other components.
   const newsletterPromise = getNewsletter()
 
   return (

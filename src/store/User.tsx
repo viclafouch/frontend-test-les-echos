@@ -23,6 +23,7 @@ const UserProvider = ({ children }: { children: React.ReactNode }) => {
     USER_WITH_ONE_SUBSCRIPTION
   )
 
+  // Omg give me my React 19 Compiler
   const actions = React.useRef({
     loginAs: {
       USER_WITH_ONE_SUBSCRIPTION: () => {
@@ -41,6 +42,7 @@ const UserProvider = ({ children }: { children: React.ReactNode }) => {
   const store = React.useMemo(() => {
     return {
       ...actions,
+      // Omg give me my React 19 Compiler
       signOut: () => {
         return setUser(null)
       },

@@ -15,7 +15,7 @@ const Navbar = () => {
         <Image alt="Les echos" src="/assets/logo.png" width={32} height={32} />
         <p className="font-bold text-inherit">Les echos</p>
       </NavbarBrand>
-      <NavbarContent className="hidden sm:flex gap-4" justify="center" />
+      <NavbarContent justify="center" />
       <NavbarContent justify="end">
         <NavbarItem>
           <UserButton />
