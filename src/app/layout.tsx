@@ -1,14 +1,20 @@
 import { Inter } from 'next/font/google'
 import { Providers } from '@/app/providers'
+import Footer from '@/components/Footer'
+import Navbar from '@/components/Navbar'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <html lang="en">
+    <html lang="fr" suppressHydrationWarning>
       <body className={inter.className}>
-        <Providers>{children}</Providers>
+        <Providers>
+          <Navbar />
+          {children}
+          <Footer />
+        </Providers>
       </body>
     </html>
   )

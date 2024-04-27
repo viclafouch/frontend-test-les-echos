@@ -1,3 +1,5 @@
+import { NewsletterItem } from '@/constants/newsletter'
+
 export const NEWSLETTER_ITEMS = [
   {
     id: '000000000000000000000000',
@@ -159,4 +161,4 @@ export const NEWSLETTER_ITEMS = [
     site: 'SAN',
     subscriptions: ['RIGHT_2']
   }
-]
+] satisfies NewsletterItem[]
